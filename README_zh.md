@@ -1,6 +1,8 @@
-# vue-css-loading（[English Doc](https://github.com/szriafan/vue-css-loading/blob/master/README.md)）
+# vue-css-loading
 
 > 一个Vue CSS动画的loading插件。我们可以为将loading添加到使用特定选择器（document.querySelector支持的）的容器中。
+
+[English Doc](https://github.com/szriafan/vue-css-loading/blob/master/README.md)
 
 如果您喜欢本项目, 欢迎点赞，谢谢！
 

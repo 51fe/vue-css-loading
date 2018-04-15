@@ -5,7 +5,7 @@
   "author": "Flying <riafan@hotmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "./dist/vue-css-loading.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "webpack --progress --hide-modules"
   },
@@ -13,10 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/szriafan/vue-css-loading.git"
   },
-  "keywords": ["Vue.js", "Plugin", "CSS"],
   "dependencies": {
     "vue": "^2.5.11"
   },
+  "keywords": ["vue", "plugin", "css"],
+  "homepage": "https://github.com/szriafan/vue-css-loading",
+  "bundleDependencies": false,
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -26,11 +28,8 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.4",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0"

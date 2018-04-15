@@ -1,6 +1,8 @@
-# vue-css-loading（[中文文档](https://github.com/szriafan/vue-css-loading/blob/master/README_zh.md)）
+# vue-css-loading
 
 > A loading plugin with css animation. We can append it in a container with a special selector(document.querySelector support).
+
+[中文文档](https://github.com/szriafan/vue-css-loading/blob/master/README_zh.md)
 
 If you like the project, please star me, thanks!
 
