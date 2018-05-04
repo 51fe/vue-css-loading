@@ -30,7 +30,7 @@ this.$loading.show()
 this.$loading.show('.container')
 
 // 隐藏移除当前loading
-Vue.loading.hide();
+this.$loading.hide();
 ```
 ## 构建
 

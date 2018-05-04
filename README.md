@@ -30,7 +30,7 @@ this.$loading.show()
 this.$loading.show('.container')
 
 // hide the current loading
-Vue.loading.hide();
+this.$loading.hide();
 ```
 
 ## Build Setup
