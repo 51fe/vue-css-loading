@@ -15,10 +15,6 @@
 
     }
 
-    [v-cloak] {
-      display: none;
-    }
-
     .toolbar {
       height: 60px;
       line-height: 60px;
@@ -80,7 +76,7 @@
   </style>
 </head>
 <body>
-  <div id="app" v-if="showToolbar" v-cloak>
+  <div id="app" v-if="showToolbar">
     <div class="toolbar">
       <select v-model="selector" @change="show(selector)">
         <option value="">Default</option>

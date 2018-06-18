@@ -19,6 +19,9 @@ npm i vue-css-loading -S
 // register the plugin on Vue
 import Toasted from 'vue-css-loading';
 
+// import style
+import VueLoading from 'vue-css-loading/lib/loading.css';
+
 Vue.use(VueLoading)
 
 // you can call like this in any component
