@@ -8,9 +8,8 @@ module.exports = {
     path: path.resolve(__dirname, './lib'),
     publicPath: '/lib/',
     filename: 'index.js',
-    library: ['vueLoading'],
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    library: 'vueLoading',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [

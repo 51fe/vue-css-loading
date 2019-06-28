@@ -20,7 +20,7 @@ npm i vue-css-loading -S
 import VueLoading from 'vue-css-loading';
 
 // 导入样式
-import VueLoading from 'vue-css-loading/lib/loading.css';
+import 'vue-css-loading/lib/loading.css';
 
 Vue.use(VueLoading)
 

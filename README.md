@@ -17,10 +17,10 @@ It is simple. Use script tag or NPM
 npm i vue-css-loading -S
 
 // register the plugin on Vue
-import Toasted from 'vue-css-loading';
+import VueLoading from 'vue-css-loading';
 
 // import style
-import VueLoading from 'vue-css-loading/lib/loading.css';
+import 'vue-css-loading/lib/loading.css';
 
 Vue.use(VueLoading)
 
