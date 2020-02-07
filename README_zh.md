@@ -16,11 +16,10 @@
 
 npm i vue-css-loading -S
 
-// 给vue注册插件
-import VueLoading from 'vue-css-loading';
-
 // 导入样式
-import 'vue-css-loading/lib/loading.css';
+import 'vue-css-loading/lib/vue-css-loading.css'
+// 给vue注册插件
+import VueLoading from 'vue-css-loading'
 
 Vue.use(VueLoading)
 
