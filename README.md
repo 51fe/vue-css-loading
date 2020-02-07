@@ -16,11 +16,11 @@ It is simple. Use script tag or NPM
 
 npm i vue-css-loading -S
 
-// register the plugin on Vue
-import VueLoading from 'vue-css-loading';
-
 // import style
-import 'vue-css-loading/lib/loading.css';
+import 'vue-css-loading/lib/vue-css-loading.css'
+
+// register the plugin on Vue
+import VueLoading from 'vue-css-loading'
 
 Vue.use(VueLoading)
 
