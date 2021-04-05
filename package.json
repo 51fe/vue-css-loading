@@ -1,7 +1,7 @@
 {
   "name": "vue-css-loading",
   "description": "A Vue plugin for loading with css animation",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "author": "Flying <riafan@hotmail.com>",
   "license": "MIT",
   "private": false,
