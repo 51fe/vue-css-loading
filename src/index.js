@@ -1,39 +1,34 @@
-import Loading from './components/Loading'
-import './components/loading.css'
+import VueLoading from './components/Loading'
 
 let instance
 
-const VueLoading = {
-  install(Vue, options) {
+const install = function(Vue, options) {
+  if (install.installed) return
+  Vue.component('VueLoading', VueLoading)
+  if (!instance) {
+    const LoadingPlugin = Vue.extend(VueLoading);
+    instance = new LoadingPlugin({
+      el: document.createElement('div')
+    });
+  }
 
-    if (!instance) {
-      const LoadingPlugin = Vue.extend(Loading);
-      instance = new LoadingPlugin({
-        el: document.createElement('div')
-      });
+  Vue.prototype.$loading = {
+    show(selector) {
+      instance.isLoading = true;
+      document.querySelector(selector || 'body').appendChild(instance.$el);
+    },
+    hide() {
+      instance.isLoading = false;
     }
-
-    let loading = {
-      show(sellector) {
-        instance.isLoading = true;
-        document.querySelector(sellector || 'body').appendChild(instance.$el);
-      },
-      hide() {
-        instance.isLoading = false;
-      }
-    };
-
-    if (!Vue.$loading) {
-      Vue.$loading = loading;
-    }
-
-    Vue.prototype.$loading = Vue.$loading
   }
 }
 
-export default VueLoading
-
+// 判断是否是直接引入文件
 if (typeof window !== 'undefined' && window.Vue) {
-  Vue.use(VueLoading)
+  install(window.Vue)
 }
 
+export default {
+  install,
+  VueLoading
+}

@@ -6,7 +6,9 @@
 
 如果您喜欢本项目, 欢迎点赞，谢谢！
 
-## 效果演示: [https://szriafan.github.io/vue-css-loading/](https://szriafan.github.io/vue-css-loading/)
+## 效果演示:
+
+[演示](https://szriafan.github.io/vue-css-loading/)
 
 ## 用法
 
@@ -15,9 +17,11 @@
 ``` bash
 
 npm i vue-css-loading -S
+```
 
+``` js
 // 导入样式
-import 'vue-css-loading/lib/vue-css-loading.css'
+import 'vue-css-loading/lib/index.css'
 // 给vue注册插件
 import VueLoading from 'vue-css-loading'
 
@@ -37,14 +41,19 @@ this.$loading.hide();
 ## 构建
 
 ``` bash
+
 # 安装依赖
 npm install
 
-# 构建精简的线上版本
+# 构建umd库
+npm run build-umd
+
+# 开发环境下运行示例App
+npm run start
+
+# 构建示例App的线上版本
 npm run build
 
-# 构建线上版本并查看相关的分析报告
-npm run build --report
 ```
 
-想进一步了解构建工作原理, 请查看[指南](http://vuejs-templates.github.io/webpack/)和[vue-loader文档](http://vuejs.github.io/vue-loader)。
+想进一步了解构建工作原理, 请查看[vue-loader文档](http://vuejs.github.io/vue-loader)。
