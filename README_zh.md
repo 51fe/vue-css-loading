@@ -8,7 +8,7 @@
 
 ## 效果演示:
 
-[演示](https://szriafan.github.io/vue-css-loading/examples)
+[演示](https://51fe.github.io/vue-css-loading/examples)
 
 ## 用法
 
