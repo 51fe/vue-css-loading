@@ -7,7 +7,7 @@
 If you like the project, please star me, thanks!
 
 ## Live demo:
-[Demo](https://szriafan.github.io/vue-css-loading/examples/)
+[Demo](https://51fe.github.io/vue-css-loading/examples/)
 
 ## Usage
 
